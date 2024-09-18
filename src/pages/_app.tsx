@@ -5,7 +5,7 @@ import { ReactElement } from "react";
 
 interface AppProps {
   Component: React.ElementType;
-  pageProps: any;
+  pageProps: Record<string, unknown>;
 }
 
 export default function App({ Component, pageProps }: AppProps): ReactElement {
